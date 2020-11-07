@@ -18,6 +18,21 @@ $(".btn").click(function() {
   checkAnswer(userClickedPattern.length - 1);
 });
 
+$("#bt").click( function(){
+  var counter = 300;
+  setInterval(function() {
+    counter--;
+     if (counter >= 0) {
+        span = document.getElementById("count");
+        span.innerHTML = counter;
+     }
+     if (counter === 0) {
+        alert('sorry, out of time');
+        clearInterval(counter);
+      }
+    }, 1000);
+});
+
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     if (userClickedPattern.length === gamePattern.length) {
