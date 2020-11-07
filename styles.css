@@ -109,6 +109,13 @@ body {
   background-color: grey;
 }
 
+#level {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.65rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
 .author {
   color: #FEF2BF;
 }
