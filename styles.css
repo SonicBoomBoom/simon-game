@@ -2,18 +2,18 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
+.container{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  color: white;
+  font-size: 100px;
+  height: -250px;
+}
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin: 5%;
   color: #FEF2BF;
-}
-.container{
-  font-family: 'Big Shoulders Stencil Text', cursive;
-  color: white;
-  font-size: 100px;
-  height: -250px;
 }
 
 .container {
@@ -113,13 +113,6 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
-}
-
-#level {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 0.65rem;
-  margin: 5%;
-  color: #FEF2BF;
 }
 
 .author {
