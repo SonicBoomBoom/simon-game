@@ -5,14 +5,19 @@ body {
 .container{
   font-family: 'Big Shoulders Stencil Text', cursive;
   color: white;
-  font-size: 100px;
   height: -250px;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin: 5%;
+  margin: 2rem;
+  color: #FEF2BF;
+}
+
+#count {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
   color: #FEF2BF;
 }
 
@@ -115,6 +120,15 @@ body {
   background-color: grey;
 }
 
+.score-box {
+  color: #FEF2BF;
+}
+
+#score {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+}
+
 .author {
   color: #FEF2BF;
 }
@@ -125,7 +139,7 @@ a {
 }
 
 a:hover {
-  color: #FEF2BF;
+  color: green;
 }
 
 @media only screen and (max-width: 600px) {
@@ -135,7 +149,7 @@ a:hover {
 
   .container {
     width: 100%;
-    margin: 130px 0 25px;
+    margin: 100px 0 25px;
   }
 
   .btn {
