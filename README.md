@@ -1,4 +1,4 @@
-# simon-game
+# Simon Game
 
 ## Description
 
@@ -51,5 +51,5 @@ and so on,
 - Instagram - [@avick_saha] (https://www.instagram.com/avick_saha/)
 - website - [Avick Saha] (https://sonicboomboom.github.io/Personal-Site/)
 
-[Back To The Top] (#simon-game)
+[Back To The Top](#simon-game)
 
