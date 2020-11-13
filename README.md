@@ -4,7 +4,7 @@
 
 Simon is an electronic game of memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates, with software programming by Lenny Cope. The device creates a series of tones and lights and requires a user to repeat the sequence.
 
-[Back To The Top] (#simon-game)
+[Back To The Top](#simon-game)
 
 ---
 
@@ -42,14 +42,14 @@ and so on,
 #### 2. After you start the game, the start button will not work until the game is over.
 
 
-[Back To The Top] (#simon-game)
+[Back To The Top](#simon-game)
 
 ---
 
 ## Author Info
 
-- Instagram - [@avick_saha] (https://www.instagram.com/avick_saha/)
-- website - [Avick Saha] (https://sonicboomboom.github.io/Personal-Site/)
+- Instagram - [@avick_saha](https://www.instagram.com/avick_saha/)
+- website - [Avick Saha](https://sonicboomboom.github.io/Personal-Site/)
 
 [Back To The Top](#simon-game)
 
