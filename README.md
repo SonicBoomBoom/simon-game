@@ -38,8 +38,8 @@ and so on,
 
 ### Note: 
 
-#### 1. You have 300 seconds or 5 minutes to play the game and after five minutes it will over automatically.
-#### 2. After you start the game, the start button will not work until the game is over.
+- You have 300 seconds or 5 minutes to play the game and after five minutes it will over automatically.
+- After you start the game, the start button will not work until the game is over.
 
 
 [Back To The Top](#simon-game)
