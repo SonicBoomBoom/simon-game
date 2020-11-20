@@ -48,8 +48,9 @@ and so on,
 
 ## Author Info
 
+- Twitter - [@AvickSah](https://twitter.com/AvickSah?s=20)
 - Instagram - [@avick_saha](https://www.instagram.com/avick_saha/)
-- website - [Avick Saha](https://sonicboomboom.github.io/Personal-Site/)
+- Website - [Avick Saha](https://sonicboomboom.github.io/personal-site/)
 
 [Back To The Top](#simon-game)
 
