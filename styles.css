@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #75daad;
 }
 .container{
   font-family: 'Big Shoulders Stencil Text', cursive;
@@ -54,39 +54,40 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btn-dark {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
-.btn-dark:hover {
-  color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
+.btn-light:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
 }
 
-.btn-dark:focus, .btn-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+.btn-light:focus, .btn-light.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
-.btn-dark.disabled, .btn-dark:disabled {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+.btn-light.disabled, .btn-light:disabled {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
-.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
-.show > .btn-dark.dropdown-toggle {
-  color: #fff;
-  background-color: #1d2124;
-  border-color: #171a1d;
+.btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
+.show > .btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
 }
 
-.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
-.show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+.btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
+
 
 .btn-lg {
   padding: 0.5rem 1rem;
@@ -95,24 +96,24 @@ body {
 }
 
 .game-over {
-  background-color: red;
+  background-color: #e84a5f;
   opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+  background-color: #fa163f;
 }
 
 .green {
-  background-color: green;
+  background-color: #79d70f;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #0fabbc;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #ffd31d;
 }
 
 .pressed {
