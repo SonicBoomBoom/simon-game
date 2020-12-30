@@ -87,8 +87,20 @@ function nextSequence() {
   var randomNumber = Math.floor(Math.random() * 4); // Returns a random number in a range of 0-3.
   var randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
-  $("#" + randomChosenColour).fadeOut(100).fadeIn(100);
-  playSound(randomChosenColour);
+
+  let i = 0;
+  function gamePatternLoop() {
+    setTimeout(function() {
+      $("#" + gamePattern[i]).fadeOut(100).fadeIn(100);
+      playSound(gamePattern[i]);
+      i++;
+      if (i < gamePattern.length) {
+        gamePatternLoop();
+      }
+    }, 500);
+  }
+
+  gamePatternLoop();
 }
 
 function animatePress(currentColor) {
